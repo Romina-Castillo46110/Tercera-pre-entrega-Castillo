@@ -1,0 +1,48 @@
+
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block contenido %}
+<main>
+    <div class="container">
+        <h2 class="text-center" style="color:rgb(25, 13, 13)">Conoce a nuestros profesores</h2>
+        <div class="row">
+            <div class="col-12  col-md-6">
+                <div class="card">
+                    <img src="{% static 'AppCoder/assets/img/testimonials-2.jpg' %}"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Maximiliano</h5>
+                        <p class="card-text"></p>
+                        <a class="btn btn-danger" href="">Enviar mensaje</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12  col-md-6">
+                <div class="card">
+                    <img src="{% static 'AppCoder/assets/img/testimonials-1.jpg' %}"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Sera</h5>
+                        <p class="card-text"></p>
+                        <a class="btn btn-danger" href="">Enviar mensaje</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12  col-md-6">
+                <div class="card">
+                    <img src="{% static 'AppCoder/assets/img/testimonials-3.jpg' %}"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Fernanda</h5>
+                        <p class="card-text"></p>
+                        <a class="btn btn-danger" href="">Enviar mensaje</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+{% endblock %}
